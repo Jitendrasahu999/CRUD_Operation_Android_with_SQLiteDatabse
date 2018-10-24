@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <TextView
+        android:text="Operation Praform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btnClose"
+        android:layout_toEndOf="@+id/btnClose"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="12dp"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/icon_delete"
+        android:id="@+id/btnClose"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textColor="#f9f9f9"
+        android:background="#d13a3a"
+        android:textAllCaps="false"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textColor="#f9f9f9"
+        android:background="#1d6fab"
+        android:textAllCaps="false"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="120dp"/>
+
+</RelativeLayout>
